@@ -5,5 +5,5 @@ streamlit_option_menu
 plot_express
 scikit-learn
 distutils
-altair vega_datasets
+altair
 st_aggrid
