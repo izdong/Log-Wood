@@ -5,8 +5,6 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 import plotly.express as px
 from sklearn.metrics import f1_score
-from distutils import errors
-from distutils.log import error
 import altair as alt
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
 
