@@ -25,7 +25,7 @@ st.set_page_config(
 # df = get_data()
 @st.cache(allow_output_mutation=True)
 def fetch_data():  
-    return pd.read_csv('data.csv')
+    return pd.read_csv('data/data.csv')
 
 df = fetch_data()
 dfn = df.drop(['int_class', 'precision'], axis=1)
