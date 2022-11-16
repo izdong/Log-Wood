@@ -1,7 +1,7 @@
 streamlit
 numpy
 pandas
-st_aggrid
+streamlit-aggrid
 streamlit_option_menu
 plot_express
 scikit-learn
