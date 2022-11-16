@@ -1,0 +1,9 @@
+streamlit
+numpy
+pandas
+streamlit_option_menu
+plot_express
+scikit-learn
+distutils
+altair vega_datasets
+st_aggrid
