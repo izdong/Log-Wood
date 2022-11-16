@@ -142,20 +142,7 @@ if choose == "Overview":
             st.markdown("<h4 style='text-align: center;'>Accuracy</h4>", unsafe_allow_html=True)
             accuracy
         with col2:
-
-            # option = st.selectbox(
-            # 'How would you like to display?',
-            # (' Overall', 'Month', 'Day of Week'), index = 0)              #right
-        
-            # if option == ' Overall' :
-            #     overall
-
-            # elif option == 'Month' :
-            #     mo()
-
-            # elif option == 'Day of Week' :
-            #     dow
-            st.markdown("<h4 style='text-align: center;'>Statistic</h4>", unsafe_allow_html=True)
+            st.markdown("<h4 style='text-align: center;'>Transaction</h4>", unsafe_allow_html=True)
 
             tab1, tab2, tab3 = st.tabs(["Overall", "Month", "Day of Week"])
             with tab1:
@@ -200,7 +187,7 @@ if choose == "Overview":
         with col4:              #right
             # st.markdown('% Type of Wood')
             # st.markdown("<h4 style='text-align: center;'>% Type of Wood</h>", unsafe_allow_html=True)
-            
+            st.markdown("<h4 style='text-align: center;'>Wood Type</h4>", unsafe_allow_html=True)
             tab1, tab2= st.tabs(["Percent", "Amount"])
             
             
