@@ -105,6 +105,7 @@ gb.configure_column("input_time_cctv", type=["dateColumnFilter","customDateTimeF
 gb.configure_column("weigh_wood", type=["numericColumn","numberColumnFilter","customNumericFormat"], precision=1, aggFunc='sum')
 gb.configure_column("correlation_class", type=["numericColumn", "numberColumnFilter", "customNumericFormat"], precision=2, aggFunc='avg')
 gb.configure_column("cosine_class", type=["numericColumn", "numberColumnFilter", "customNumericFormat"], precision=2, aggFunc='avg')
+gb.configure_column('input_date_cctv', headerCheckboxSelection = True)
 
 # Customize pagination
 # gb.configure_pagination(paginationAutoPageSize=True)
