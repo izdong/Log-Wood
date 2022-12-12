@@ -6,3 +6,4 @@ streamlit_option_menu
 plotly
 -U scikit-learn
 altair
+htbuilder
