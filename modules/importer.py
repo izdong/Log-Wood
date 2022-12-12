@@ -18,29 +18,3 @@ class DataImport:
         # df['month'] = df['date'].dt.month_name().str[:3]
         df = df.sort_values(by = ['date'])
         return df
-
-
-
-# @st.cache(allow_output_mutation=True)
-# def fetch_data():  
-#     return pd.read_csv('data/data.csv')
-
-# df = fetch_data()
-# dfn = df.drop(['int_class', 'precision'], axis=1)
-
-# # ---------------------------------data prepare---------------------------------
-
-# df['date'] = pd.to_datetime(df['input_date_cctv'], format = '%Y/%m/%d')
-# df.sort_values(by = ['date'])
-
-# df['day'] = df['date'].dt.day_name().str[:3]
-# mon = df['month'] = df['date'].dt.month_name().str[:3]
-
-
-
-# sort_date = df.sort_values(by='date')
-
-# # create data frame for prediction f1-score
-
-# f1 = f1_score(df['int_class'], df['precision'])
-# f1_df = pd.DataFrame({'pass': [f1], 'fail': [1 - f1]}, index = ['G'])
