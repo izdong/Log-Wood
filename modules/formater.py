@@ -28,7 +28,6 @@ class Footer:
     def __init__(self):
         style = """
         <style>
-        #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
         </style>
