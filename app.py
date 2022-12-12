@@ -15,7 +15,7 @@ t = Title().page_config(title)
 f = Footer()
 
 # Import data
-ddf = DataImport().fetch_and_clean_data()
+df = DataImport().fetch_and_clean_data()
 df['day'] = df['date'].dt.day_name().str[:3]
 df['month'] = df['date'].dt.month_name().str[:3]
 
