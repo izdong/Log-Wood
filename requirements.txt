@@ -3,6 +3,6 @@ numpy
 pandas
 streamlit-aggrid
 streamlit_option_menu
-plotly_express
-scikit-learn
+plotly
+-U scikit-learn
 altair
