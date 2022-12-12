@@ -10,7 +10,7 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import altair as alt
 import datetime
 
-title = "start page"
+title = "Overview
 t = Title().page_config(title)
 f = Footer()
 
