@@ -29,7 +29,6 @@ class Footer:
         style = """
         <style>
         footer {visibility: hidden;}
-        header {visibility: hidden;}
         </style>
 
         """
